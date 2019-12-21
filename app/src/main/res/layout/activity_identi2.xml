@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002b35">
+
+
+    <TextView
+        android:id="@+id/tvJoeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrer le nom du joueur 1"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#cdcaec"/>
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom"
+        android:layout_marginTop="250dp"
+        android:textColor="#cdcaec"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:background="@color/color_tv_welcom">
+
+        <Button
+            android:id="@+id/bOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/color_tv_welcom"
+            android:textStyle="bold"
+            android:background="#cdcaec"/>
+
+        <Button
+            android:id="@+id/bValider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:background="#cdcaec"
+            android:layout_marginLeft="195dp"
+            android:textColor="@color/color_tv_welcom"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

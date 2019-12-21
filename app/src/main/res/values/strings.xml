@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QUIZZ</string>
+    <string name="tv_welcome">Bienvenue!</string>
+    <string name="b_play">Jouer</string>
+    <string name="b_score">Voir Score</string>
+    <string name="tv_choix_matiere">Vous devez choisir une matière pour jouer</string>
+    <string name="b_pc">Phusique Chimie</string>
+    <string name="b_anglais">Anglais</string>
+    <string name="b_svt">svt</string>
+    <string name="b_geo">Geographie</string>
+    <string name="b_histoire">Histoire</string>
+</resources>

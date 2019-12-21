@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002b35"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvChoixMatiere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_choix_matiere"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="70dp"
+        android:textColor="#cdcaec"
+        android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/bMath"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/b_pc"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:textColor="#002b35"
+            android:textStyle="bold"
+            android:background="#f6ff00"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/bPc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/b_anglais"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#cdcaec"
+            android:textColor="#002b35"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/ee"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b_svt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#002b35"
+        android:textStyle="bold"
+        android:background="#2fb7de"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/eee"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b_geo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#002b35"
+        android:textStyle="bold"
+        android:background="#ffc396"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bP"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b_histoire"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#ef7998"
+        android:textColor="#002b35"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+
+
+
+</LinearLayout>

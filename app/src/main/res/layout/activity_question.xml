@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002b35"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHYSIQUE CHIMIE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/color_tv_welcom"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#f6ff00"/>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0-0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#cdcaec"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/bReponse"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Reponse"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginTop="-30dp"
+        android:background="#cdcaec"/>
+
+    <TextView
+        android:id="@+id/tvNumQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/color_tv_welcom"
+        android:layout_marginTop="60dp"/>
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#cdcaec"/>
+
+
+    <Button
+        android:id="@+id/bChoice1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Pl"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/color_tv_welcom"
+        android:textColor="#002b35"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bChoice2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/color_tv_welcom"
+        android:textColor="#002b35"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bChoice3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Pn"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/color_tv_welcom"
+        android:textColor="#002b35 "
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" />
+
+
+</LinearLayout>

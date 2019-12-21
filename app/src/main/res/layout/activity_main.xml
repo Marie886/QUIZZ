@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#002b35">
+
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_welcome"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/color_tv_welcom"
+        />
+
+    <Button
+        android:id="@+id/bPlay"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="@string/b_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textSize="25sp"
+        android:background="#cdcaec"/>
+
+    <Button
+        android:id="@+id/bScore"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="@string/b_score"
+        android:layout_below="@id/bPlay"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_marginTop="160dp"
+        android:background="#cdcaec"
+
+        />
+</RelativeLayout>
